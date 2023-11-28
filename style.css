@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#NavbarSectionMaindiv{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+#NavbarSection{
+     background-color:#328873;
+    color: white;
+}
+ul{
+  display: flex; 
+  gap: 50px; 
+  align-items: center;
+  
+
+}
+li{
+    list-style: none;
+}
+ #bannerSection>img{
+   
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background: repeat;
+   
+ }
+ /* bannar end */
+  /* aboutus started */
+  #aboutSection{
+    background-color: #E9E9E9;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 40px;
+margin: 20px 0px;
+
+  }
+  #aboutTextDiv{
+    width: 50%;
+  }
+  #aboutImageDive>img{
+    height: 500px;
+  }
+  #aboutTextDiv>h1{
+    font-size: 44px;
+    line-height: 60px;
+  }
+  #aboutTextDiv>p{
+    font-size: 22px;
+    line-height: 35px;
+    text-align: justify;
+  }
+  #aboutTextDiv>button{
+    padding: 15px 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #00D916;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px gray;
+
+   
+  }
+  span{
+    color: #00D916;
+  }
+  /* about end */
+  /* job section start */
+  #jobSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+   
+  }
+  .cardImageDiv>img{
+    height: 240px;
+  }
+  .CardTextDiv{
+    background-color: #00D916;
+    padding: 0 0 20px 20px;
+  }
+  .jobSectionCard{
+    background-color: #00D916;
+  }
+  .CardTextDiv>button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding:10px 20px ;
+    font-weight: bold;
+    font-size: 16px;
+
+
+
+  }
+  #moreJobsBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+
+#moreJobsBtn>button
+{
+  padding: 15px 35px;
+  font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  background-color: #00D916;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 1px gray;
+
+}
+ 
+.cardbutton{
+  padding: 5px 10px;
+  background-color: black;
+  color: #E9E9E9;
+  border: none;
+}
+
+/*contact section start*/
+#contactSecetion{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: #E9E9E9;
+}
+
+
+
+/*contact section ened*/
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+ 
+
+
+}
+.inputField{
+  padding: 15px 20px;
+  width: 400px;
+}
+  #contactImageDiv>img{
+    height: 400px;
+
+
+  }
+
+.commonButten{
+  width: 100px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #00D916;
+  color: white;
+  border: none;
+}
+#Copyrightsection{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+
+
+}
+
+
+
+
+
+
+    
